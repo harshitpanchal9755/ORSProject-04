@@ -1,0 +1,138 @@
+package in.co.rays.proj4.controller;
+
+public interface ORSView { /// ors view is loosecoupling provide karta hai jisse ki view pe chage karna ha
+							/// to har jaga view chage nahi karna padha orsview pe change kar saku me class
+							/// interface
+
+	public String APP_CONTEXT = "/ORSProject-04";
+	public String PAGE_FOLDER = "/jsp";
+
+	public String JAVA_DOC = APP_CONTEXT + "/doc/index.html";
+
+	public String WELCOME_VIEW = PAGE_FOLDER + "/WelcomeView.jsp";
+	public String WELCOME_CTL = APP_CONTEXT + "/WelcomeCtl";
+
+	public String LOGIN_VIEW = PAGE_FOLDER + "/LoginView.jsp";
+	public String LOGIN_CTL = APP_CONTEXT + "/LoginCtl";
+
+	public String GET_MARKSHEET_VIEW = PAGE_FOLDER + "/GetMarksheetView.jsp";
+	public String GET_MARKSHEET_CTL = APP_CONTEXT + "/ctl/GetMarksheetCtl";
+
+	public String MARKSHEET_MERIT_LIST_VIEW = PAGE_FOLDER + "/MarksheetMeritListView.jsp";
+	public String MARKSHEET_MERIT_LIST_CTL = APP_CONTEXT + "/ctl/MarksheetMeritListCtl";
+
+	public String USER_REGISTRATION_VIEW = PAGE_FOLDER + "/UserRegistrationView.jsp";
+	public String USER_REGISTRATION_CTL = APP_CONTEXT + "/UserRegistrationCtl";
+
+	public String USER_LIST_VIEW = PAGE_FOLDER + "/UserListView.jsp";
+	public String USER_LIST_CTL = APP_CONTEXT + "/ctl/UserListCtl";
+
+	public String USER_VIEW = PAGE_FOLDER + "/UserView.jsp";
+	public String USER_CTL = APP_CONTEXT + "/ctl/UserCtl";
+
+	public String ROLE_VIEW = PAGE_FOLDER + "/RoleView.jsp";
+	public String ROLE_CTL = APP_CONTEXT + "/ctl/RoleCtl";
+
+	public String ROLE_LIST_VIEW = PAGE_FOLDER + "/RoleListView.jsp";
+	public String ROLE_LIST_CTL = APP_CONTEXT + "/ctl/RoleListCtl";
+
+	public String COLLEGE_VIEW = PAGE_FOLDER + "/CollegeView.jsp";
+	public String COLLEGE_CTL = APP_CONTEXT + "/ctl/CollegeCtl";
+
+	public String COLLEGE_LIST_VIEW = PAGE_FOLDER + "/CollegeListView.jsp";
+	public String COLLEGE_LIST_CTL = APP_CONTEXT + "/ctl/CollegeListCtl";
+
+	public String STUDENT_VIEW = PAGE_FOLDER + "/StudentView.jsp";
+	public String STUDENT_CTL = APP_CONTEXT + "/ctl/StudentCtl";
+
+	public String STUDENT_LIST_VIEW = PAGE_FOLDER + "/StudentListView.jsp";
+	public String STUDENT_LIST_CTL = APP_CONTEXT + "/ctl/StudentListCtl";
+
+	public String MARKSHEET_VIEW = PAGE_FOLDER + "/MarksheetView.jsp";
+	public String MARKSHEET_CTL = APP_CONTEXT + "/ctl/MarksheetCtl";
+
+	public String MARKSHEET_LIST_VIEW = PAGE_FOLDER + "/MarksheetListView.jsp";
+	public String MARKSHEET_LIST_CTL = APP_CONTEXT + "/ctl/MarksheetListCtl";
+
+	public String COURSE_VIEW = PAGE_FOLDER + "/CourseView.jsp";
+	public String COURSE_CTL = APP_CONTEXT + "/ctl/CourseCtl";
+
+	public String COURSE_LIST_VIEW = PAGE_FOLDER + "/CourseListView.jsp";
+	public String COURSE_LIST_CTL = APP_CONTEXT + "/ctl/CourseListCtl";
+
+	public String SUBJECT_VIEW = PAGE_FOLDER + "/SubjectView.jsp";
+	public String SUBJECT_CTL = APP_CONTEXT + "/ctl/SubjectCtl";
+
+	public String SUBJECT_LIST_VIEW = PAGE_FOLDER + "/SubjectListView.jsp";
+	public String SUBJECT_LIST_CTL = APP_CONTEXT + "/ctl/SubjectListCtl";
+
+	public String TIMETABLE_VIEW = PAGE_FOLDER + "/TimetableView.jsp";
+	public String TIMETABLE_CTL = APP_CONTEXT + "/ctl/TimetableCtl";
+
+	public String TIMETABLE_LIST_VIEW = PAGE_FOLDER + "/TimetableListView.jsp";
+	public String TIMETABLE_LIST_CTL = APP_CONTEXT + "/ctl/TimetableListCtl";
+
+	public String FACULTY_VIEW = PAGE_FOLDER + "/FacultyView.jsp";
+	public String FACULTY_CTL = APP_CONTEXT + "/ctl/FacultyCtl";
+
+	public String FACULTY_LIST_VIEW = PAGE_FOLDER + "/FacultyListView.jsp";
+	public String FACULTY_LIST_CTL = APP_CONTEXT + "/ctl/FacultyListCtl";
+
+	public String FORGET_PASSWORD_VIEW = PAGE_FOLDER + "/ForgetPasswordView.jsp";
+	public String FORGET_PASSWORD_CTL = APP_CONTEXT + "/ForgetPasswordCtl";
+
+	public String MY_PROFILE_VIEW = PAGE_FOLDER + "/MyProfileView.jsp";
+	public String MY_PROFILE_CTL = APP_CONTEXT + "/ctl/MyProfileCtl";
+
+	public String CHANGE_PASSWORD_VIEW = PAGE_FOLDER + "/ChangePasswordView.jsp";
+	public String CHANGE_PASSWORD_CTL = APP_CONTEXT + "/ctl/ChangePasswordCtl";
+
+	public String ERROR_VIEW = PAGE_FOLDER + "/ErrorView.jsp";
+	public String ERROR_CTL = APP_CONTEXT + "/ctl/ErrorCtl";
+
+	public String DATAIMPORTLOG_VIEW = PAGE_FOLDER + "/DataImportView.jsp";
+	public String DATAIMPORTLOG_CTL = APP_CONTEXT + "/ctl/DataimportlogCtl";
+
+	public String GEOFENCE_VIEW = PAGE_FOLDER + "/GeofenceView.jsp";
+	public String GEOFENCE_CTL = APP_CONTEXT + "/ctl/GeofenceCtl";
+
+	public String GEOFENCE_LIST_VIEW = PAGE_FOLDER + "/GeofenceListView.jsp";
+	public String GEOFENCE_LIST_CTL = APP_CONTEXT + "/ctl/GeofenceListCtl";
+
+	public String BATCHPROCESSING_VIEW = PAGE_FOLDER + "/BatchProcessingView.jsp";
+	public String BATCHPROCESSING_CTL = APP_CONTEXT + "/ctl/BatchProcessingCtl";
+
+	public String BATCHPROCESSING_LIST_VIEW = PAGE_FOLDER + "/BatchProcessingListView.jsp";
+	public String BATCHPROCESSING_LIST_CTL = APP_CONTEXT + "/ctl/BatchProcessingListCtl";
+	
+	public String VIRTUALWALLET_VIEW = PAGE_FOLDER + "/VirtualWalletView.jsp";
+	public String VIRTUALWALLET_CTL = APP_CONTEXT + "/ctl/VirtualWalletCtl";
+	
+	public String VIRTUALWALLET_LIST_VIEW = PAGE_FOLDER + "/VirtualWalletListView.jsp";
+	public String VIRTUALWALLET_LIST_CTL = APP_CONTEXT + "/ctl/VirtualWalletListCtl";
+	
+	public String USERSESSION_VIEW = PAGE_FOLDER + "/UserSessionView.jsp";
+	public String USERSESSION_CTL = PAGE_FOLDER + "/ctl/UserSessionCtl";
+	
+	public String USERSESSION_LIST_VIEW = PAGE_FOLDER + "/UserSessionListView.jsp";
+	public String USERSESSION_LIST_CTL = APP_CONTEXT + "/ctl/UserSessionListCtl";
+	
+	public String VOICEASSISTANT_VIEW = PAGE_FOLDER + "/VoiceAssistantView.jsp";
+	public String VOICEASSISTANT_CTL = APP_CONTEXT + "/ctl/VoiceAssistantCtl";
+	
+	public String VOICEASSISTANT_LIST_VIEW = PAGE_FOLDER + "/VoiceAssistantListView.jsp";
+	public String VOICEASSISTANT_LIST_CTL = APP_CONTEXT + "/ctl/VoiceAssistantListCtl";
+	
+	public String BLOCKCHAIN_VIEW = PAGE_FOLDER + "/BlockChainView.jsp";
+	public String BLOCKCHAIN_CTL = APP_CONTEXT + "/ctl/BlockChainCtl";
+	
+	public String BLOCKCHAIN_LIST_VIEW = PAGE_FOLDER + "/BlockChainListView.jsp";
+	public String BLOCKCHAIN_LIST_CTL = APP_CONTEXT + "/ctl/BlockListCtl";
+
+	public String INSURANCEAPP_VIEW = PAGE_FOLDER + "/InsuranceAppView.jsp";
+	public String INSURANCEAPP_CTL = APP_CONTEXT + "/ctl/InsuranceAppCtl";
+	
+	public String INSURANCEAPP_LIST_VIEW = PAGE_FOLDER + "/InsuranceAppListView.jsp";
+	public String INSURANCEAPP_LIST_CTL = APP_CONTEXT + "/ctl/InsuranceAppListCtl";
+	
+}
